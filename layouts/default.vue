@@ -3,11 +3,11 @@
     <!-- 公共头引入 -->
     <header id="header">
       <section class="container">
-<!--        <h1 id="logo">-->
-<!--          <a href="#" title="湖北师范大学">-->
-<!--            <img src="~/assets/img/logo.png" width="100%"  height="100%" alt="湖北师范学院">-->
-<!--          </a>-->
-<!--        </h1>-->
+        <h1 id="logo">
+          <a href="#" title="谷粒学院">
+            <img src="~/assets/img/logo.png" width="100%" alt="谷粒学院">
+          </a>
+        </h1>
         <div class="h-r-nsl">
           <ul class="nav">
             <router-link to="/" tag="li" active-class="current" exact>
@@ -77,7 +77,7 @@
       </section>
     </header>
     <!-- /公共头引入 -->
-
+      
     <nuxt/>
 
     <!-- 公共底引入 -->
