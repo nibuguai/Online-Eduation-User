@@ -4,111 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e57039e-f4c5-4dcd-b6be-a8a7d43835d2" name="默认变更列表" comment="最初始文件">
-      <change afterPath="$PROJECT_DIR$/assets/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/sign.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/web.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/404.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/HF-BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/avatar-boy.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/black-bg-hf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/black-mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/black-name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/c-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/d-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/default-img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/default-img_old.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/default-tea-img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/kyb-tip-all-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/kyb-tip-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/kyb-tip-close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/loding.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pic/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pic/banner-1-blue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pic/banner-1-green.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pic/banner-2-blue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pic/banner-2-green.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pic/c-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pic/one-master.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pic/t-p-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pic/three-blue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pic/two-green.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/qq-icon-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/qq-icon-hover-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/qq-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/s-next-btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/s-prev-btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/tipQe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/up-hf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/v-loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/v-play-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/wb-icon-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/wb-icon-hover-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/wb-icon-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/wb-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/wb2-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/wx-icon-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/wx-icon-hover-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/wx-icon-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/wx-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/wx2-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/zan-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/aliplayer-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/html5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/placeholder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/swiper-2.1.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/banner/1525939573202.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/banner/153525d0ef15459596.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/course/1442295379715.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/course/1442295455437.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/course/1442295472860.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/course/1442295506745.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/course/1442295527931.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/course/1442295556203.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/course/1442295570359.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/course/1442295581911.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/course/1442295592705.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/course/1442295604295.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/course/1442302831779.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/course/1442302852837.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/1442297885942.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/1442297919077.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/1442297927029.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/1442297935589.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/1442297957332.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/1442297969808.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/1442297977255.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/1442297987091.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/1442297999141.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/1442298121626.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/nuxt-swiper-plugin.js" afterDir="false" />
+    <list default="true" id="2e57039e-f4c5-4dcd-b6be-a8a7d43835d2" name="默认变更列表" comment="静态页面构建好的页面">
+      <change afterPath="$PROJECT_DIR$/api/banner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/course/_id.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/course/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/teacher/_id.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/teacher/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,6 +41,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2OeVdv2LvCL1MgkhaZR8eMIhbfR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -131,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -144,9 +66,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\在线教育（尚硅谷）\Online-Eduation-User" />
+      <recent name="G:\在线教育（尚硅谷）\Online-Eduation-User\assets\img" />
       <recent name="G:\在线教育（尚硅谷）\Online-Eduation-User\pages" />
       <recent name="G:\在线教育（尚硅谷）\Online-Eduation-User\layouts" />
-      <recent name="G:\在线教育（尚硅谷）\Online-Eduation-User" />
       <recent name="G:\在线教育（尚硅谷）\Online-Eduation-User\plugins" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -154,13 +77,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,7 +109,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681921130650</updated>
-      <workItem from="1681921135079" duration="3257000" />
+      <workItem from="1681921135079" duration="3899000" />
+      <workItem from="1681925446404" duration="5889000" />
     </task>
     <task id="LOCAL-00001" summary="最初始文件">
       <created>1681921337267</created>
@@ -193,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681921337267</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="静态页面构建好的页面">
+      <created>1681924729270</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681924729270</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,9 +142,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="最初始文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="最初始文件" />
+    <MESSAGE value="静态页面构建好的页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="静态页面构建好的页面" />
   </component>
 </project>
