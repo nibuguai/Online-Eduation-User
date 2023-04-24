@@ -1,21 +1,19 @@
 import request from '@/utils/request'
 
 export default {
-    //根据手机号发验证码
-  sendCode(phone) {
+  //根据手机号码发送短信
+  getMobile(mobile) {
     return request({
-      url: `/edumsm/msm/send/${phone}`,
+      url: `/edumsm/send/${mobile}`,
       method: 'get'
     })
   },
-
-  //注册的方法
-  registerMember(formItem) {
+  //用户注册
+  submitRegister(formItem) {
     return request({
-      url: `/educenter/member/register`,
+      url: `/ucenterservice/apimember/register`,
       method: 'post',
       data: formItem
     })
   }
-
 }

@@ -41,36 +41,59 @@
 </template>
 
 <script>
-  import '~/assets/css/sign.css'
-  import '~/assets/css/iconfont.css'
-  import cookie from 'js-cookie'
-  export default {
-    layout: 'sign',
+import '~/assets/css/sign.css'
+import '~/assets/css/iconfont.css'
+import cookie from 'js-cookie'
 
-    data () {
-      return {
-        user:{
-          mobile:'',
-          password:''
-        },
-        loginInfo:{}
-      }
+import loginApi from '@/api/login'
+export default {
+  layout: 'sign',
+
+  data () {
+    return {
+      user:{
+        mobile:'',
+        password:''
+      },
+      loginInfo:{}
+    }
+  },
+
+  methods: {
+    submitLogin(){
+      loginApi.submitLogin(this.user).then(response => {
+        if(response.data.success){
+
+          //把token存在cookie中、也可以放在localStorage中
+          cookie.set('guli_token', response.data.data.token, { domain: 'localhost' })
+          //登录成功根据token获取用户信息
+          loginApi.getLoginInfo().then(response => {
+            console.log("============================================================")
+            console.log(response.data.data)
+            this.loginInfo = response.data.data.userInfo
+            console.log("获取返回用户信息，放到cookie里面"+this.loginInfo)
+            console.log(this.loginInfo)
+            //将用户信息记录cookie
+            cookie.set('guli_ucenter', this.loginInfo, { domain: 'localhost' })
+            //跳转页面
+            window.location.href = "/";
+          })
+        }
+      })
     },
 
-    methods: {
-
-      checkPhone (rule, value, callback) {
-        //debugger
-        if (!(/^1[34578]\d{9}$/.test(value))) {
-          return callback(new Error('手机号码格式不正确'))
-        }
-        return callback()
+    checkPhone (rule, value, callback) {
+      //debugger
+      if (!(/^1[34578]\d{9}$/.test(value))) {
+        return callback(new Error('手机号码格式不正确'))
       }
+      return callback()
     }
   }
+}
 </script>
 <style>
-   .el-form-item__error{
-    z-index: 9999999;
-  }
+.el-form-item__error{
+  z-index: 9999999;
+}
 </style>

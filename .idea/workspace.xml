@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e57039e-f4c5-4dcd-b6be-a8a7d43835d2" name="默认变更列表" comment="第11天代码">
-      <change afterPath="$PROJECT_DIR$/api/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/sign.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/register.vue" afterDir="false" />
+    <list default="true" id="2e57039e-f4c5-4dcd-b6be-a8a7d43835d2" name="默认变更列表" comment="第12天代码">
+      <change afterPath="$PROJECT_DIR$/api/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/nuxt-swiper-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/nuxt-swiper-plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +73,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,6 +107,7 @@
       <updated>1681921130650</updated>
       <workItem from="1681921135079" duration="3899000" />
       <workItem from="1681925446404" duration="5889000" />
+      <workItem from="1682259920959" duration="14295000" />
     </task>
     <task id="LOCAL-00001" summary="最初始文件">
       <created>1681921337267</created>
