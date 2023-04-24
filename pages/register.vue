@@ -69,6 +69,7 @@ import '~/assets/css/sign.css'
 import '~/assets/css/iconfont.css'
 
 import registerApi from '@/api/register'
+import login from "./login";
 
 export default {
   layout: 'sign',
@@ -91,7 +92,6 @@ export default {
       //his.sending原为true,请求成功，!this.sending == true，主要是防止有人把disabled属性去掉，多次点击；
       if (!this.sending)
         return;
-
       //debugger
       // prop 换成你想监听的prop字段
       this.$refs.userForm.validateField('mobile', (errMsg) => {
@@ -122,12 +122,15 @@ export default {
       this.$refs['userForm'].validate((valid) => {
         if (valid) {
           registerApi.submitRegister(this.params).then(response => {
-            //提示注册成功
-            // this.$message({
-            //   type: 'success',
-            //   message: "注册成功"
-            // })
-            // this.$router.push({path: '/login'})
+            console.log("进入此方法"+JSON.stringify(response))
+            if (typeof response !== 'undefined') {
+              // 提示注册成功s
+              this.$message({
+                type: 'success',
+                message: "注册成功"
+              })
+              this.$router.push({path: '/login'})
+            }
           })
         }
       })

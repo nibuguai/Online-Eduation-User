@@ -17,6 +17,8 @@ service.interceptors.request.use(
     //debugger
     if (cookie.get('guli_token')) {
       config.headers['token'] = cookie.get('guli_token');
+      console.log("存在token" +
+        config.headers['token'])
     }
     return config
   },

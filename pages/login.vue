@@ -62,19 +62,19 @@ export default {
   methods: {
     submitLogin(){
       loginApi.submitLogin(this.user).then(response => {
+        console.log("登录前端返回的数据"+JSON.stringify(response))
         if(response.data.success){
-
           //把token存在cookie中、也可以放在localStorage中
           cookie.set('guli_token', response.data.data.token, { domain: 'localhost' })
           //登录成功根据token获取用户信息
           loginApi.getLoginInfo().then(response => {
             console.log("============================================================")
             console.log(response.data.data)
-            this.loginInfo = response.data.data.userInfo
-            console.log("获取返回用户信息，放到cookie里面"+this.loginInfo)
+            this.loginInfo = response.data.data.userForm
+            console.log("获取返回用户信息，放到cookie里面"+JSON.stringify(this.loginInfo))
             console.log(this.loginInfo)
             //将用户信息记录cookie
-            cookie.set('guli_ucenter', this.loginInfo, { domain: 'localhost' })
+            cookie.set('guli_ucenter', JSON.stringify(this.loginInfo), { domain: 'localhost' })
             //跳转页面
             window.location.href = "/";
           })

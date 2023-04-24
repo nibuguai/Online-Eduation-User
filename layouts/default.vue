@@ -162,9 +162,10 @@ export default {
     showInfo() {
       //debugger
       var jsonStr = cookie.get("guli_ucenter");
+      console.log(jsonStr)
       //alert(jsonStr)
       if (jsonStr) {
-        // this.loginInfo = JSON.parse(jsonStr)
+        this.loginInfo = JSON.parse(jsonStr)
       }
     },
 
