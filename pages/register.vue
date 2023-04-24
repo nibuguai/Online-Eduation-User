@@ -123,11 +123,11 @@ export default {
         if (valid) {
           registerApi.submitRegister(this.params).then(response => {
             //提示注册成功
-            this.$message({
-              type: 'success',
-              message: "注册成功"
-            })
-            this.$router.push({path: '/login'})
+            // this.$message({
+            //   type: 'success',
+            //   message: "注册成功"
+            // })
+            // this.$router.push({path: '/login'})
           })
         }
       })
